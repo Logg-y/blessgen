@@ -1,3 +1,7 @@
+v1.0.1 - 19/04/22
+
+Automatically created the /output folder. Thanks to Imperator for picking up on what my sleepy brain forgot
+
 v1.0.0 - 19/04/22
 
 Initial upload

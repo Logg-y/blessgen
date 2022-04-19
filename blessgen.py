@@ -133,6 +133,8 @@ def main(**options):
     utils.START_UNIT_ID = options.get("startunitid", 3501)
     gen = BlessGenerator(**options)
     gen.generateAll()
+    if not os.path.isdir("./output"):
+        os.mkdir("./output")
     outfp = options.get("outfp", None)
     if outfp is None:
         outfp = f"blessgen-{random.random()}.dbm"
