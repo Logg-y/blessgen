@@ -7,7 +7,7 @@ import os
 import traceback
 from blessgenerationsettings import BlessGenerationSettings
 
-ver = "1.0.0"
+ver = "1.0.1"
 
 def _parseDataFiles():
     if len(utils.blesseffects) < 0:
