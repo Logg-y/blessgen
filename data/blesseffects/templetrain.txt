@@ -1,0 +1,607 @@
+-- Montags will require firstshape dummies to work
+
+#newbless "Templetrainer amphiptere"
+#name a "Temple Train: Amphiptere"
+#name n "Temple Train: Amphiptere"
+#paths an
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 564 1412
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer air elem"
+#name a "Temple Train: Air Elemental(s2)"
+#paths a
+#pathlevel 1
+#addeffect 564 571
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer angel choir"
+#name s "Temple Train: Angel of Choirs"
+#paths s
+#pathlevel 1
+#addeffect 564 1367
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer bog beast"
+#name n "Temple Train: Bog Beast"
+#name w "Temple Train: Bog Beast"
+#paths nw
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 564 578
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer bone fiend"
+#name d "Temple Train: Bone Fiend"
+#name b "Temple Train: Bone Fiend"
+#paths db
+#pathlevel 1
+#addeffect 564 433
+#skipchance 90
+#alwaysactive 1
+#end
+
+--#newbless "Templetrainer dungeon monsters"
+--#name e "Temple Train: Dungeon Monsters"
+--#name d "Temple Train: Dungeon Monsters"
+--#paths ed
+--#reqcrosspath 1
+--#pathlevel 5
+--#addeffect 564 -14
+--#skipchance 90
+--#alwaysactive 1
+--#end
+
+#newbless "Templetrainer cave cow"
+#name e "Temple Train: Cave Cow"
+#paths e
+#pathlevel 1
+#addeffect 564 2512
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer cave spider"
+#name e "Temple Train: Cave Spider"
+#paths e
+#pathlevel 1
+#addeffect 564 2513
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer clayman"
+#name e "Temple Train: Clayman"
+#paths e
+#pathlevel 1
+#addeffect 564 817
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer clockwork soldier"
+#name e "Temple Train: Clockwork Soldier"
+#paths e
+#pathlevel 1
+#addeffect 564 2321
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer clockwork horror"
+#name e "Temple Train: Clockwork Horror"
+#paths e
+#pathlevel 1
+#addeffect 564 982
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer dire wolf"
+#name n "Temple Train: Dire Wolf"
+#paths n
+#pathlevel 1
+#addeffect 564 1224
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer draconian"
+#name a "Temple Train: Draconian"
+#paths a
+#pathlevel 1
+#addeffect 564 593
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer draconian"
+#name a "Temple Train: Draconian"
+#paths a
+#pathlevel 1
+#addeffect 564 593
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer dust warrior"
+#name e "Temple Train: Dust Warrior"
+#name d "Temple Train: Dust Warrior"
+#paths ed
+#pathlevel 2
+#reqcrosspath 1
+#addeffect 564 1980
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer earth gnome"
+#name e "Temple Train: Earth Gnome"
+#paths e
+#pathlevel 1
+#addeffect 564 561
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer earth elemental 2"
+#name e "Temple Train: Earth Elemental 2"
+#paths e
+#pathlevel 1
+#addeffect 564 497
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer elder thing"
+#name s "Temple Train: Elder Thing"
+#paths s
+#pathlevel 1
+#addeffect 564 752
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer fire ele 2"
+#name f "Temple Train: Fire Elemental s2"
+#paths f
+#pathlevel 2
+#addeffect 564 598
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer fire ant"
+#name f "Temple Train: Fire Ant"
+#name n "Temple Train: Fire Ant"
+#paths fn
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 564 2225
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer fire snake"
+#name f "Temple Train: Fire Snake"
+#paths f
+#pathlevel 2
+#addeffect 564 814
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer forest troll"
+#name n "Temple Train: Forest Troll"
+#paths n
+#pathlevel 2
+#addeffect 564 2219
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer gargoyle"
+#name e "Temple Train: Gargoyle"
+#paths e
+#pathlevel 1
+#addeffect 564 2368
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer great bear"
+#name n "Temple Train: Great Bear"
+#paths n
+#pathlevel 1
+#addeffect 564 694
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer great boar"
+#name n "Temple Train: Great Boar"
+#paths n
+#pathlevel 1
+#addeffect 564 2136
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer great hawk"
+#name a "Temple Train: Great Hawk"
+#paths a
+#pathlevel 1
+#addeffect 564 1380
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer great lion"
+#name n "Temple Train: Great Lion"
+#paths n
+#pathlevel 1
+#addeffect 564 628
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer great spider"
+#name n "Temple Train: Great Spider"
+#paths n
+#pathlevel 1
+#addeffect 564 884
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer horned serpent"
+#name n "Temple Train: Horned Serpent"
+#paths n
+#pathlevel 1
+#addeffect 564 403
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer hydra hatchling"
+#name n "Temple Train: Hydra Hatchling"
+#paths n
+#pathlevel 1
+#addeffect 564 1840
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer iron fly"
+#name e "Temple Train: Iron Fly"
+#paths e
+#pathlevel 2
+#addeffect 564 3232
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer illearth 2"
+#name b "Temple Train: Illearth size 2"
+#name e "Temple Train: Illearth size 2"
+#paths be
+#pathlevel 2
+#reqcrosspath 1
+#addeffect 564 2284
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer killer mantis"
+#name n "Temple Train: Killer Mantis"
+#paths n
+#pathlevel 1
+#addeffect 564 2226
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer kydnid"
+#name w "Temple Train: Kydnid"
+#paths w
+#pathlevel 1
+#addeffect 564 1227
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer lesser otherness"
+#name s "Temple Train: Lesser Otherness"
+#paths s
+#pathlevel 2
+#addeffect 564 756
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer lioness"
+#name n "Temple Train: Lioness"
+#paths n
+#pathlevel 1
+#addeffect 564 2133
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer living statue"
+#name e "Temple Train: Living Statue"
+#paths e
+#pathlevel 2
+#addeffect 564 474
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer longdead horseman"
+#name d "Temple Train: Longdead Horseman"
+#paths d
+#pathlevel 1
+#addeffect 564 189
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer lumber construct"
+#name n "Temple Train: Lumber Construct"
+#paths n
+#pathlevel 2
+#addeffect 564 476
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer mandragora"
+#name n "Temple Train: Mandragora"
+#name d "Temple Train: Mandragora"
+#paths nd
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 564 314
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer mechanical man"
+#name e "Temple Train: Mechanical Man"
+#paths e
+#pathlevel 1
+#addeffect 564 532
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer ogre"
+#name e "Temple Train: Ogre"
+#paths e
+#pathlevel 2
+#addeffect 564 2135
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer released warrior"
+#name e "Temple Train: Released Warrior"
+#name d "Temple Train: Released Warrior"
+#paths ed
+#pathlevel 2
+#reqcrosspath 1
+#addeffect 564 2524
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer salamander"
+#name f "Temple Train: Salamander"
+#paths f
+#pathlevel 2
+#addeffect 564 213
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer scorpion beast"
+#name f "Temple Train: Scorpion Beast"
+#name e "Temple Train: Scorpion Beast"
+#paths fe
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 564 524
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer shade"
+#name d "Temple Train: Shade"
+#paths d
+#pathlevel 1
+#addeffect 564 676
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer shade beast"
+#name d "Temple Train: Shade Beast"
+#paths d
+#pathlevel 2
+#addeffect 564 442
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer spine devil"
+#name b "Temple Train: Spine Devil"
+#paths b
+#pathlevel 2
+#addeffect 564 638
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer sylph"
+#name a "Temple Train: Sylph"
+#paths a
+#pathlevel 2
+#addeffect 564 562
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer thing from beyond"
+#name s "Temple Train: Thing from Beyond"
+#paths s
+#pathlevel 2
+#addeffect 564 750
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer thing from void"
+#name s "Temple Train: Thing from Void"
+#paths s
+#pathlevel 2
+#addeffect 564 753
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer thing of many eyes"
+#name s "Temple Train: Many Eyed Thing"
+#paths s
+#pathlevel 1
+#addeffect 564 758
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer tiger"
+#name n "Temple Train: Tiger"
+#paths n
+#pathlevel 2
+#addeffect 564 1140
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer unfrozen warrior"
+#name w "Temple Train: Unfrozen Warrior"
+#name d "Temple Train: Unfrozen Warrior"
+#paths wd
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 564 1202
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer Vile Thing"
+#name s "Temple Train: Vile Thing"
+#paths s
+#pathlevel 2
+#addeffect 564 757
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer vine ogre"
+#name n "Temple Train: Vine Ogre"
+#paths n
+#pathlevel 2
+#addeffect 564 1140
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer water elemental"
+#name w "Temple Train: Water Elemental 2"
+#paths w
+#pathlevel 2
+#addeffect 564 412
+#addeffect 158 10	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer werewolf"
+#name n "Temple Train: Werewolf"
+#paths n
+#pathlevel 2
+#addeffect 564 633
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer wight"
+#name d "Temple Train: Wight"
+#paths d
+#pathlevel 3
+#addeffect 564 533
+#addeffect 159 10	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer woodland spirit"
+#name n "Temple Train: Woodland Spirit"
+#paths n
+#pathlevel 1
+#addeffect 564 932
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Templetrainer wyvern"
+#name a "Temple Train: Wyvern"
+#paths a
+#pathlevel 2
+#addeffect 564 520
+#skipchance 90
+#alwaysactive 1
+#end
+

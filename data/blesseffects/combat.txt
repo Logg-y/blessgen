@@ -1,0 +1,993 @@
+#newbless "Morale"
+#name f "Morale +[EFFECT308]"
+#name b "Morale +[EFFECT308]"
+#paths f
+#pathlevel 1
+#addeffect 308 1
+#scaleeffect 308 1.8
+#maxeffectvalue 308 10
+#multipick 1
+#end
+
+#newbless "Death Explosion"
+#name f "Death Explosion AoE [EFFECT297], +10 FR"
+#paths f
+#pathlevel 4
+#addeffect 297 6	-- death explosion bless type
+#addeffect 198 10	-- Fire res
+#scaleeffect 297 1.5
+#maxeffectvalue 297 14
+#descr "The explosion does 10 AP fire damage. The area of effect of the explosion is [EFFECT297] + sacred size - 2."
+#end
+
+#newbless "Attack Skill"
+#name f "Attack Skill +[EFFECT150]"
+#paths f
+#pathlevel 3
+#addeffect 150 2
+#scaleeffect 150 0.9
+#maxeffectvalue 150 2
+#multipick 1
+#end
+
+#newbless "Strength"
+#name eb "Strength +[EFFECT151]"
+#paths eb
+#pathlevel 1
+#addeffect 151 1
+#scaleeffect 151 1.2
+#maxeffectvalue 151 8
+#multipick 1
+#end
+
+#newbless "Defence Skill"
+#name w "Defence Skill +[EFFECT377]"
+#paths w
+#pathlevel 4
+#addeffect 377 2
+#scaleeffect 377 0.9
+#maxeffectvalue 377 2
+#multipick 1
+#end
+
+#newbless "MR Bonus"
+#name s "Magic Resistance +[EFFECT161]"
+#paths s
+#pathlevel 3
+#addeffect 161 2
+#scaleeffect 161 0.4
+#maxeffectvalue 161 3
+#multipick 1
+#end
+
+#newbless "MR Bonus 1 only"
+#name s "Magic Resistance +1"
+#paths s
+#pathlevel 1
+#addeffect 161 1
+#end
+
+
+#newbless "Penetration Bonus"
+#name s "Magic Penetration +[EFFECT162]"
+#paths s
+#pathlevel 3
+#addeffect 162 1
+#scaleeffect 162 0.3
+#maxeffectvalue 162 2
+#multipick 1
+#end
+
+#newbless "Plague Carrier"
+#name d "Disease Aura [EFFECT172] + Disease Immune"
+#paths d
+#pathlevel 5
+#addeffect 172 2	-- disease aura
+#addeffect 513 100	-- disease resist
+#scaleeffect 172 1
+#negscaleaffinity 3 100
+#maxeffectvalue 172 4
+#end
+
+#newbless "Disease Explosion"
+#name d "Disease Explosion [EFFECT401] + Immunity"
+#paths d
+#pathlevel 5
+#addeffect 401 5	-- disease explosion
+#addeffect 513 100	-- disease resist
+#scaleeffect 401 1
+#negscaleaffinity 3 100
+#maxeffectvalue 401 9
+#end
+
+
+-- #newbless "Storm Power"
+-- #name a "Storm Power +[EFFECT174]"
+-- #paths a
+-- #pathlevel 6
+-- #addeffect 174 2	-- storm power
+-- #scaleeffect 174 1
+-- #maxeffectvalue 174 10
+-- #end
+
+#newbless "Storm Immunity"
+#name a "Storm Immunity"
+#paths a
+#pathlevel 4
+#addeffect 175 1	-- storm immunity
+#end
+
+#newbless "Extra Eye"
+#name s "[EFFECT178] Trueseeing Eyes"
+#name b "Extra [EFFECT178] Eyes"
+#paths s
+#pathlevel 2
+#alwaysactive 1
+#addeffect 178 666	-- eyes
+#addeffect 607 1	-- spirit sight
+#end
+
+#newbless "Precision"
+#name a "Precision +[EFFECT181]"
+#paths a
+#pathlevel 2
+#multipick 1
+#addeffect 181 3	-- prec
+#scaleeffect 181 1.8
+#maxeffectvalue 181 20
+#end
+
+#newbless "Fear"
+#name d "Fear +5"
+#name b "Fear +5"
+#paths db
+#pathlevel 8
+#addeffect 183 5
+#end
+
+#newbless "Poison Barbs"
+#name n "Poison Barbs +[EFFECT188]"
+#paths n
+#pathlevel 4
+#multipick 1
+#addeffect 188 5
+#scaleeffect 188 2
+#maxeffectvalue 188 20
+#end
+
+#newbless "Berserker"
+#name n "Berserker +[EFFECT190]"
+#paths n
+#pathlevel 5
+#addeffect 190 2
+#scaleeffect 190 0.75
+#maxeffectvalue 190 10
+#end
+
+#newbless "Fire Resistance"
+#name f "Fire Resistance +[EFFECT198]"
+#paths f
+#pathlevel 1
+#addeffect 198 1
+#scaleeffect 198 1.2
+#maxeffectvalue 198 5
+#multipick 1
+#end
+
+#newbless "Cold Resistance"
+#name w "Cold Resistance +[EFFECT201]"
+#paths w
+#pathlevel 1
+#addeffect 201 1
+#scaleeffect 201 1.2
+#maxeffectvalue 201 5
+#multipick 1
+#end
+
+#newbless "Shock Resistance"
+#name a "Shock Resistance +[EFFECT199]"
+#paths a
+#pathlevel 1
+#addeffect 199 1
+#scaleeffect 199 1.2
+#maxeffectvalue 199 5
+#multipick 1
+#end
+
+#newbless "Poison Resistance"
+#name n "Poison Resistance +[EFFECT200]"
+#paths n
+#pathlevel 1
+#addeffect 200 1
+#scaleeffect 200 1.2
+#maxeffectvalue 200 5
+#multipick 1
+#end
+
+#newbless "All Resistance"
+#name n "All Resistances +[EFFECT200]"
+#paths n
+#pathlevel 4
+#addeffect 198 2
+#addeffect 199 2
+#addeffect 200 2
+#addeffect 201 2
+#scaleeffect 198 0.5
+#scaleeffect 199 0.5
+#scaleeffect 200 0.5
+#scaleeffect 201 0.5
+#maxeffectvalue 200 20
+#multipick 1
+#end
+
+#newbless "Damage Reversal"
+#name b "Damage Reversal"
+#paths b
+#pathlevel 10
+#addeffect 202 1
+#end
+
+#newbless "Air Shield"
+#name a "Air Shield +[EFFECT208]%"
+#paths a
+#pathlevel 2
+#addeffect 208 30
+#scaleeffect 208 15
+#maxeffectvalue 208 80
+#multipick 1
+#end
+
+#newbless "Chill Aura"
+#name w "Chill Aura +[EFFECT220], +10 Cold Res"
+#paths w
+#pathlevel 5
+#addeffect 220 3
+#addeffect 201 10
+#scaleeffect 220 2
+#maxeffectvalue 220 6
+#multipick 1
+#end
+
+#newbless "Heat Aura"
+#name f "Heat Aura +[EFFECT316], +10 Fire Res"
+#paths f
+#pathlevel 5
+#addeffect 316 3
+#addeffect 198 10
+#scaleeffect 316 2
+#maxeffectvalue 316 6
+#multipick 1
+#end
+
+#newbless "Banefire Shield"
+#name fd "Banefire Shield +[EFFECT222]"
+#reqcrosspath 1
+#paths fd
+#pathlevel 8
+#addeffect 222 5
+#scaleeffect 222 0.6
+#maxeffectvalue 222 9
+#multipick 1
+#end
+
+-- #newbless "Farcaster Fire"
+-- #name f "Farcaster (F): +[EFFECT40] Rit/[EFFECTTIMES25_40]% Cmbt"
+-- #skipchance 80
+-- #paths f
+-- #pathlevel 3
+-- #addeffect 40 1
+-- #scaleeffect 40 0.75
+-- #maxeffectvalue 40 8
+-- #descr "Sacred commanders gain +[EFFECT40] province range on fire rituals, and +[EFFECTTIMES25_40]% range on fire combat spells."
+-- #alwaysactive 1
+-- #end
+-- 
+-- #newbless "Farcaster Air"
+-- #name a "Farcaster (A): +[EFFECT41] Rit/[EFFECTTIMES25_41]% Cmbt"
+-- #skipchance 80
+-- #paths a
+-- #pathlevel 3
+-- #addeffect 41 1
+-- #scaleeffect 41 0.75
+-- #maxeffectvalue 41 8
+-- #descr "Sacred commanders gain +[EFFECT41] province range on air rituals, and +[EFFECTTIMES25_41]% range on air combat spells."
+-- #alwaysactive 1
+-- #end
+-- 
+-- #newbless "Farcaster Water"
+-- #name w "Farcaster (W): +[EFFECT42] Rit/[EFFECTTIMES25_42]% Cmbt"
+-- #skipchance 80
+-- #paths w
+-- #pathlevel 3
+-- #addeffect 42 1
+-- #scaleeffect 42 0.75
+-- #maxeffectvalue 42 8
+-- #descr "Sacred commanders gain +[EFFECT42] province range on water rituals, and +[EFFECTTIMES25_42]% range on water combat spells."
+-- #alwaysactive 1
+-- #end
+-- 
+-- #newbless "Farcaster Earth"
+-- #name e "Farcaster (E): +[EFFECT43] Rit/[EFFECTTIMES25_43]% Cmbt"
+-- #skipchance 80
+-- #paths e
+-- #pathlevel 3
+-- #addeffect 43 1
+-- #scaleeffect 43 0.75
+-- #maxeffectvalue 43 8
+-- #descr "Sacred commanders gain +[EFFECT43] province range on earth rituals, and +[EFFECTTIMES25_43]% range on earth combat spells."
+-- #alwaysactive 1
+-- #end
+-- 
+-- #newbless "Farcaster Astral"
+-- #name s "Farcaster (S): +[EFFECT44] Rit/[EFFECTTIMES25_44]% Cmbt"
+-- #skipchance 80
+-- #paths s
+-- #pathlevel 3
+-- #addeffect 44 1
+-- #scaleeffect 44 0.75
+-- #maxeffectvalue 44 8
+-- #descr "Sacred commanders gain +[EFFECT44] province range on astral rituals, and +[EFFECTTIMES25_44]% range on astral combat spells."
+-- #alwaysactive 1
+-- #end
+-- 
+-- #newbless "Farcaster Death"
+-- #name d "Farcaster (D): +[EFFECT45] Rit/[EFFECTTIMES25_45]% Cmbt"
+-- #skipchance 80
+-- #paths d
+-- #pathlevel 3
+-- #addeffect 45 1
+-- #scaleeffect 45 0.75
+-- #maxeffectvalue 45 8
+-- #descr "Sacred commanders gain +[EFFECT45] province range on death rituals, and +[EFFECTTIMES25_45]% range on death combat spells."
+-- #alwaysactive 1
+-- #end
+-- 
+-- #newbless "Farcaster Nature"
+-- #name n "Farcaster (N): +[EFFECT46] Rit/[EFFECTTIMES25_46]% Cmbt"
+-- #skipchance 80
+-- #paths n
+-- #pathlevel 3
+-- #addeffect 46 1
+-- #scaleeffect 46 0.75
+-- #maxeffectvalue 46 8
+-- #descr "Sacred commanders gain +[EFFECT46] province range on nature rituals, and +[EFFECTTIMES25_46]% range on nature combat spells."
+-- #alwaysactive 1
+-- #end
+
+#newbless "Farcaster All"
+#name s "Farcaster All +[EFFECT25] Rit/[EFFECTTIMES25_25]% Cmbt"
+#paths s
+#pathlevel 3
+#addeffect 25 1
+#scaleeffect 25 1
+#maxeffectvalue 25 4
+#descr "Sacred commanders gain +[EFFECT25] province range on all rituals, and +[EFFECTTIMES25_25]% range on all combat spells."
+#alwaysactive 1
+#end
+
+#newbless "Awe"
+#name f "Awe +[EFFECT105]"
+#paths f
+#pathlevel 6
+#addeffect 105 1
+#scaleeffect 105 1
+#maxeffectvalue 105 3
+#end
+
+#newbless "Halt Heretic"
+#name f "Halt Heretic +[EFFECT327]"
+#paths f
+#pathlevel 4
+#addeffect 327 1
+#scaleeffect 327 1
+#maxeffectvalue 327 3
+#end
+
+#newbless "Poison Aura"
+#name n "Poison Aura +[EFFECT106], Poison Res +20"
+#paths n
+#pathlevel 9
+#addeffect 106 2
+#addeffect 200 20
+#scaleeffect 106 1
+#maxeffectvalue 106 5
+#end
+
+#newbless "Reinvigoration"
+#name e "Reinvigoration +[EFFECT117]"
+#paths e
+#pathlevel 3
+#addeffect 117 2
+#scaleeffect 117 1.1
+#maxeffectvalue 117 8
+#end
+
+
+#newbless "Vine Shield"
+#name n "Vine Shield +[EFFECT128] Pen"
+#paths n
+#pathlevel 10
+#posscaleaffinity 3 300
+#addeffect 128 1
+#end
+
+#newbless "Astral Shield"
+#name s "Astral Shield +12"
+#paths s
+#pathlevel 10
+#posscaleaffinity 5 300
+#addeffect 321 1
+#end
+
+#newbless "Horror Mark Attackers"
+#name s "Horror Mark Shield (MRN) +[EFFECT127] Pen"
+#paths s
+#pathlevel 4
+#addeffect 127 1
+#scaleeffect 127 0.7
+#maxeffectvalue 127 1
+#end
+
+#newbless "Corpse Eater"
+#name d "Eat 1 Corpse/turn for +1 max HP"
+#paths d
+#pathlevel 7
+--#negscaleaffinity 3 80
+#addeffect 236 1
+#addeffect 237 1
+#alwaysactive 1
+#end
+
+
+--#newbless "Curse Bestower"
+--#name s "Curse Bestower"
+--#name d "Curse Bestower"
+--#paths sd
+--#pathlevel 4
+--#addeffect 271 1
+--#end
+
+#newbless "Darkvision"
+#name n "Darkvision +[EFFECT281]%"
+#paths n
+#pathlevel 1
+#addeffect 281 50
+#scaleeffect 281 25
+#maxeffectvalue 281 100
+#end
+
+--#newbless "Dark Power"
+--#name d "Dark Power +[EFFECT293]"
+--#paths d
+--#pathlevel 2
+--#addeffect 293 1
+--#scaleeffect 293 0.6
+--#maxeffectvalue 293 4
+--#multipick 1
+--#end
+
+#newbless "Disbelieve"
+#name a "Disbelieve +[EFFECT295]"
+#name s "Disbelieve +[EFFECT295]"
+#paths as
+#pathlevel 2
+#addeffect 295 5
+#end
+
+#newbless "HP bonus"
+#name n "Hitpoints +[EFFECT305]"
+#name b "Hitpoints +[EFFECT305]"
+#paths nb
+#pathlevel 1
+#addeffect 305 1
+#scaleeffect 305 1.3
+#maxeffectvalue 305 25
+#multipick 1
+#end
+
+#newbless "Sleep Aura"
+#name n "Sleep Aura +[EFFECT306]"
+#paths n
+#pathlevel 8
+#addeffect 306 2
+#scaleeffect 306 1
+#maxeffectvalue 306 5
+#end
+
+#newbless "Reforming"
+#name n "Reforming +[EFFECT337]%"
+#paths n
+#pathlevel 2
+#addeffect 337 10
+#scaleeffect 337 5
+#maxeffectvalue 337 80
+#end
+
+-- Turns out to be a bad idea for multiple reasons...
+-- swarmbody bless basically makes everything unkillable barring soul slay
+-- #newbless "Swarm Body"
+-- #name n "Swarm Body +[EFFECT338]"
+-- #paths n
+-- #posscaleaffinity 3 300
+-- #pathlevel 10
+-- #addeffect 338 1
+-- #end
+
+#newbless "Temp Fire Gem"
+#name f "Temp F Gem (disables assassins)"
+#paths f
+#pathlevel 8
+#skipchance 80
+#addeffect 344 1 	-- temp fire gems
+#addeffect 213 -10	-- assassin
+#addeffect 298 -10	-- seduction
+#addeffect 224 -10	-- corruption
+#addeffect 210 -10	-- dream seduction
+#addeffect 247 -10	-- siren beckon
+#end
+
+#newbless "Temp Air Gem"
+#name a "Temp A Gem (disables assassins)"
+#paths a
+#pathlevel 8
+#skipchance 80
+#addeffect 345 1 	-- temp gem
+#addeffect 213 -10	-- assassin
+#addeffect 298 -10	-- seduction
+#addeffect 224 -10	-- corruption
+#addeffect 210 -10	-- dream seduction
+#addeffect 247 -10	-- siren beckon
+#end
+
+#newbless "Temp Water Gem"
+#name w "Temp W Gem (disables assassins)"
+#paths w
+#pathlevel 8
+#skipchance 80
+#addeffect 346 1 	-- temp gem
+#addeffect 213 -10	-- assassin
+#addeffect 298 -10	-- seduction
+#addeffect 224 -10	-- corruption
+#addeffect 210 -10	-- dream seduction
+#addeffect 247 -10	-- siren beckon
+#end
+
+#newbless "Temp Earth Gem"
+#name e "Temp E Gem (disables assassins)"
+#paths e
+#pathlevel 8
+#skipchance 80
+#addeffect 347 1 	-- temp gem
+#addeffect 213 -10	-- assassin
+#addeffect 298 -10	-- seduction
+#addeffect 224 -10	-- corruption
+#addeffect 210 -10	-- dream seduction
+#addeffect 247 -10	-- siren beckon
+#end
+
+#newbless "Temp S Gem"
+#name s "Temp S Gem (disables assassins)"
+#paths s
+#pathlevel 8
+#skipchance 80
+#addeffect 348 1 	-- temp gem
+#addeffect 213 -10	-- assassin
+#addeffect 298 -10	-- seduction
+#addeffect 224 -10	-- corruption
+#addeffect 210 -10	-- dream seduction
+#addeffect 247 -10	-- siren beckon
+#end
+
+#newbless "Temp D Gem"
+#name d "Temp D Gem (disables assassins)"
+#paths d
+#pathlevel 8
+#skipchance 80
+#addeffect 349 1 	-- temp gem
+#addeffect 213 -10	-- assassin
+#addeffect 298 -10	-- seduction
+#addeffect 224 -10	-- corruption
+#addeffect 210 -10	-- dream seduction
+#addeffect 247 -10	-- siren beckon
+#end
+
+#newbless "Temp N Gem"
+#name n "Temp N Gem (disables assassins)"
+#paths n
+#pathlevel 8
+#skipchance 80
+#addeffect 350 1 	-- temp gem
+#addeffect 213 -10	-- assassin
+#addeffect 298 -10	-- seduction
+#addeffect 224 -10	-- corruption
+#addeffect 210 -10	-- dream seduction
+#addeffect 247 -10	-- siren beckon
+#end
+
+#newbless "Formation Fighter"
+#name f "Formation Fighter +[EFFECT366]"
+#paths f
+#pathlevel 3
+#addeffect 366 1 
+#multipick 1
+#alwaysactive 1
+#end
+
+#newbless "Inspirational"
+#name f "Inspirational Presence"
+#paths f
+#pathlevel 2
+#addeffect 160 30 
+#addeffect 368 1 
+#multipick 1
+#alwaysactive 1
+#end
+
+#newbless "Invulnerability"
+#name d "Invulnerability +[EFFECT382]"
+#paths d
+#pathlevel 5
+#addeffect 382 10 
+#scaleeffect 382 2
+#maxeffectvalue 382 20
+#end
+
+#newbless "Protective Force"
+#name a "Protective Force +[EFFECT383]"
+#name e "Protective Force +[EFFECT383]"
+#paths ae
+#pathlevel 1
+#addeffect 383 2
+#scaleeffect 383 2
+#maxeffectvalue 383 20
+#end
+
+#newbless "Mind Slimer"
+#name s "Mind Slimer [EFFECT402] + Void Sanity"
+#paths s
+#pathlevel 10
+#addeffect 402 2
+#addeffect 277 5
+#end
+
+#newbless "Affliction Resistance"
+#name e "Affliction Resistance +[EFFECT406]"
+#paths e
+#pathlevel 1
+#addeffect 406 3 
+#scaleeffect 406 3.5
+#maxeffectvalue 406 10
+#end
+
+#newbless "Slimer"
+#name w "Slimer"
+#name n "Slimer"
+#paths nw
+#pathlevel 10
+#addeffect 412 1 
+#end
+
+#newbless "Blood Vengeance"
+#name b "Blood Vengeance"
+#paths b
+#pathlevel 7
+#addeffect 414 1 
+#end
+
+#newbless "Undying"
+#name d "Undying +[EFFECT415]"
+#paths d
+#pathlevel 1
+#addeffect 415 2
+#scaleeffect 415 2.5
+#maxeffectvalue 415 25
+#multipick 1
+#end
+
+#newbless "Limited Regen"
+#name n "Limited Regeneration +[EFFECT462]%"
+#paths n
+#pathlevel 6
+#addeffect 462 10
+#scaleeffect 462 3.5
+#maxeffectvalue 462 25
+#end
+
+#newbless "Limited Regen 1"
+#name n "Limited Regeneration +1%"
+#paths n
+#pathlevel 3
+#addeffect 462 1
+#end
+
+#newbless "Undead Regen"
+#name d "Undead Regeneration +[EFFECT615]%"
+#paths d
+#pathlevel 5
+#addeffect 615 10
+#scaleeffect 615 3.5
+#maxeffectvalue 615 25
+#end
+
+#newbless "Overcharged"
+#name a "Overcharged"
+#paths a
+#pathlevel 4
+#addeffect 478 1
+#end
+
+#newbless "Acid Shield"
+#name f "Acid Splash +[EFFECT497]"
+#name w "Acid Splash +[EFFECT497]"
+#paths fw
+#reqcrosspath 1
+#pathlevel 8
+#addeffect 497 7
+#scaleeffect 497 2
+#maxeffectvalue 497 12
+#multipick 1
+#end
+
+#newbless "Reanimators"
+#name d "Reanimators +[EFFECT514]%"
+#paths d
+#pathlevel 1
+#addeffect 514 25
+#scaleeffect 514 25
+#addeffect 159 1	-- undead leadership
+#maxeffectvalue 514 100
+#end
+
+#newbless "Poison Skin"
+#name n "Poison Skin +[EFFECT518]"
+#paths n
+#pathlevel 1
+#addeffect 518 3
+#scaleeffect 518 5
+#maxeffectvalue 518 25
+#multipick 1
+#end
+
+#newbless "Poison Weapons"
+#name n "Poison Weapons +[EFFECT538]"
+#paths n
+#pathlevel 1
+#addeffect 538 3
+#scaleeffect 538 4
+#maxeffectvalue 538 25
+#multipick 1
+#end
+
+#newbless "Withering Weapons"
+#name d "Withering Weapons"
+#paths d
+#pathlevel 3
+#addeffect 539 1
+#end
+
+#newbless "Death Weapons"
+#name d "Death Weapons +[EFFECT540]"
+#paths d
+#pathlevel 7
+#addeffect 540 2
+#scaleeffect 540 1
+#maxeffectvalue 540 5
+#multipick 1
+#end
+
+#newbless "Twist Fate"
+#name s "Twist Fate"
+#paths s
+#pathlevel 5
+#addeffect 541 1
+#end
+
+#newbless "Charged Body 10AN"
+#name a "Charged Body + 10 Shock Res"
+#paths a
+#pathlevel 5
+#addeffect 547 1
+#addeffect 199 10
+#end
+
+#newbless "Magic Weapons"
+#name s "Magic Weapons"
+#paths s
+#pathlevel 5
+#addeffect 542 1
+#end
+
+#newbless "Solar Weapons"
+#name s "Solar Weapons +[EFFECT543]"
+#name f "Solar Weapons +[EFFECT543]"
+#paths fs
+#pathlevel 2
+#addeffect 543 1
+#scaleeffect 543 1.2
+#maxeffectvalue 543 5
+#multipick 1
+#end
+
+#newbless "Unholy Weapons"
+#name b "Unholy Weapons +[EFFECT544]"
+#paths b
+#pathlevel 2
+#addeffect 544 3
+#scaleeffect 544 2.4
+#maxeffectvalue 544 16
+#multipick 1
+#end
+
+#newbless "Flaming Weapons"
+#name f "Flaming Weapons +[EFFECT545]"
+#paths f
+#pathlevel 1
+#addeffect 545 1
+#scaleeffect 545 1.2
+#maxeffectvalue 545 16
+#multipick 1
+#end
+
+#newbless "Cold Weapons"
+#name w "Cold Weapons +[EFFECT549]"
+#paths w
+#pathlevel 1
+#addeffect 549 2
+#scaleeffect 549 2.2
+#maxeffectvalue 519 22
+#multipick 1
+#end
+
+#newbless "Thunder Weapons"
+#name a "Thunder Weapons"
+#paths a
+#pathlevel 7
+#addeffect 546 1
+#end
+
+#newbless "Farshot"
+#name a "Farshot +[EFFECT548]%"
+#paths a
+#pathlevel 1
+#addeffect 548 75
+#scaleeffect 548 75
+#maxeffectvalue 548 400
+#multipick 1
+#end
+
+#newbless "Blood Surge"
+#name b "Blood Surge +[EFFECT554]"
+#paths b
+#pathlevel 4
+#addeffect 554 3
+#scaleeffect 554 0.7
+#maxeffectvalue 554 8
+#end
+
+#newbless "Blood Bond"
+#name b "Blood Bond (range [EFFECT555])"
+#paths b
+#pathlevel 1
+#addeffect 555 1
+#scaleeffect 555 1
+#maxeffectvalue 555 10
+#end
+
+#newbless "Unhindered"
+#name n "Unhindered +[EFFECT577]%"
+#paths n
+#pathlevel 1
+#addeffect 577 10
+#scaleeffect 577 10
+#maxeffectvalue 557 100
+#end
+
+#newbless "Combat Caster"
+#name f "Combat Caster"
+#paths f
+#pathlevel 1
+#addeffect 581 1
+#end
+
+#newbless "Swiftness"
+#name a "Swiftness +[EFFECT595]%, +[EFFECT377] Def Skill"
+#paths a
+#pathlevel 3
+#addeffect 595 30
+#addeffect 377 1
+#scaleeffect 595 15
+#scaleeffect 377 0.5
+#maxeffectvalue 595 120
+#multipick 1
+#end
+
+#newbless "Fateweaving"
+#name s "Fateweaving +[EFFECT601]"
+#paths s
+#pathlevel 6
+#addeffect 601 1
+#negscaleaffinity 4 100
+#end
+
+#newbless "Sun Awe"
+#name f "Sun Awe +[EFFECT605]"
+#paths f
+#pathlevel 5
+#addeffect 605 1
+#scaleeffect 605 1
+#maxeffectvalue 605 3
+#end
+
+#newbless "Spirit Sight"
+#name s "Spirit Sight"
+#name b "Spirit Sight"
+#paths sd
+#reqcrosspath 1
+#pathlevel 2
+#alwaysactive 1
+#addeffect 607 1	-- spirit sight
+#end
+
+#newbless "Fast Casting"
+#name s "Fast Casting +[EFFECT613]%"
+#paths s
+#pathlevel 2
+#alwaysactive 1
+#addeffect 613 5
+#scaleeffect 613 2.5
+#maxeffectvalue 613 50
+#end
+
+#newbless "Spellsinger"
+#name a "Spellsingers"
+#name n "Spellsingers"
+#paths an
+#pathlevel 2
+#addeffect 616 1
+#reqcrosspath 1
+#end
+
+-- doesn't want to work
+--#newbless "Norange"
+--#name a "Use Ranged Weapons while Moving"
+--#paths a
+--#pathlevel 1
+--#addeffect 634 1
+--#skipchance 50
+--#end
+
+#newbless "Polymorph Immunity"
+#name n "Polymorph Immunity"
+#skipchance 90
+#paths n
+#pathlevel 1
+#addeffect 635 1
+#end
+
+#newbless "Stun Immunity"
+#name a "Stun Immunity"
+#skipchance 75
+#paths a
+#pathlevel 1
+#addeffect 638 1
+#end
+
+#newbless "Animal Awe"
+#name n "Animal Awe +[EFFECT646]"
+#paths n
+#pathlevel 3
+#addeffect 646 1
+#scaleeffect 646 1
+#maxeffectvalue 646 3
+#end
+
+#newbless "Fire Shield"
+#name f "Fire Shield +[EFFECT652]"
+#paths f
+#pathlevel 3
+#addeffect 652 1
+#scaleeffect 652 1.2
+#maxeffectvalue 652 9
+#end
+
+

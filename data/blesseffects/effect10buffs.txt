@@ -1,0 +1,173 @@
+
+#newbless "Luck"
+#name s "Luck"
+#name b "Luck"
+#paths s
+#pathlevel 8
+#effect10buffs 2
+#posscaleaffinity 4 180
+#descr "Grants luck, giving non-inanimate and non-undead creatures a 75% chance to negate otherwise fatal damage."
+#end
+
+#newbless "Aim"
+#name a "Wind Guide"
+#name n "Eagle Eyes"
+#name b "Infernal Accuracy"
+#paths an
+#pathlevel 2
+#effect10buffs 4
+#descr "Grants the Wind Guide buff, giving +5 precision. This does not stack with spells providing this buff effect."
+#end
+
+#newbless "Barkskin Nature"
+#paths n
+#name f "Desiccated Skin"
+#name b "Desiccated Skin"
+#name n "Barkskin"
+#pathlevel 6
+#effect10buffs 16
+#descr "Grants Barkskin, setting natural protection to 10 (or +1 if it was higher than this), but adding 5 fire vulnerability."
+#end
+
+#newbless "Legions of Steel"
+#paths eb
+#name e "Tempered Armour"
+#name b "Armour of Infernal Forges"
+#pathlevel 3
+#effect10buffs 64
+#posscaleaffinity 1 80
+#descr "Grants Legions of Steel, granting +3 protection to all armour pieces. Does not stack with spells providing this buff effect."
+#end
+
+#newbless "Strength of Giants"
+#paths eb
+#name e "Strength of Giants"
+#name b "Rush of Strength"
+#pathlevel 3
+#effect10buffs 128
+#end
+
+#newbless "Gone Berserk"
+#paths nb
+#name n "Gone Berserk"
+#name b "Gone Berserk"
+--#name b "Infernal Rage"
+#negscaleaffinity 0 50
+#pathlevel 2
+#effect10buffs 256
+#descr "Blessed sacreds immediately go berserk."
+#end
+
+#newbless "Stoneskin"
+#paths e
+#name e "Stoneskin"
+#pathlevel 8
+#effect10buffs 65536
+#end
+
+#newbless "Flight always active"
+#paths a
+#name a "Permanent Flight"
+#alwaysactive 1
+#pathlevel 8
+#effect10buffs 131072
+#end
+
+#newbless "Fly When Blessed"
+#name a "Flight when Blessed"
+#paths a
+#pathlevel 6
+#effect10buffs 131072
+#end
+
+#newbless "Quickness"
+#paths sw
+#name s "Quickness"
+#name w "Quickness"
+#pathlevel 9
+#effect10buffs 262144
+#end
+
+#newbless "Weapons of Sharpness"
+#paths e
+#name e "Weapons of Sharpness"
+#pathlevel 10
+#posscaleaffinity 1 220
+#effect10buffs 524288
+#end
+
+#newbless "Life After Death"
+#paths d
+#name d "Life after Death"
+#pathlevel 6
+#negscaleaffinity 3 80
+#effect10buffs 2097152
+#end
+
+#newbless "Holy Avenger"
+#paths f
+#name f "Holy Avenger"
+#pathlevel 4
+#effect10buffs 4194304
+#end
+
+#newbless "Flaming Arrows"
+#paths f
+#name f "Flaming Arrows"
+#pathlevel 2
+#effect10buffs 8388608
+#end
+
+#newbless "Etherealness"
+#paths s
+#name s "Etherealness"
+#pathlevel 9
+#effect10buffs 134217728
+#end
+
+#newbless "Antimagic"
+#paths s
+#name s "Antimagic"
+#pathlevel 3
+#effect10buffs 67108864
+#end
+
+#newbless "Larger"
+#paths en
+#name e "Larger"
+#name n "Larger"
+#pathlevel 5
+#alwaysactive 1
+#effect10buffs 2147483648
+#end
+
+#newbless "Liquid Body"
+#paths w
+#name w "Liquid Body"
+#pathlevel 8
+#effect10buffs 2680059592704
+#end
+
+#newbless "Fortitude"
+#paths e
+#name e "Fortitude"
+#pathlevel 8
+#effect10buffs 481036337152
+#end
+
+#newbless "Hard Skin"
+#paths e
+#name e "Hard Skin"
+#pathlevel 5
+#effect10buffs 70368744177664
+#end
+
+-- redundant with prot force scalable effect
+-- #newbless "Flying Shield"
+-- #paths ae
+-- #name e "Flying Shield"
+-- #name a "Flying Shield"
+-- #pathlevel 8
+-- #effect10buffs 549755813888
+-- #end
+

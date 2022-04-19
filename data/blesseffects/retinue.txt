@@ -1,0 +1,210 @@
+-- Montags can't be used without a self-killing secondshape dummy, which looks weird and requires a .dm
+
+#newbless "Retinue blackhawk"
+#name a "Retinue: Black Hawk"
+#paths a
+#pathlevel 4
+#addeffect 436 517
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue boar"
+#name n "Retinue: Boar"
+#paths n
+#pathlevel 2
+#addeffect 436 549
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue corpse candle"
+#name f "Retinue: Corpse Candle"
+#name d "Retinue: Corpse Candle"
+#paths fd
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 436 528
+#addeffect 158 1	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+-- Montags don't work
+--#newbless "Retinue soulless"
+--#name d "Retinue: Soulless"
+--#paths d
+--#pathlevel 2
+--#addeffect 436 -15
+--#addeffect 159 1	-- undead leadership
+--#skipchance 90
+--#alwaysactive 1
+--#end
+
+#newbless "Retinue deer"
+#name n "Retinue: Deer"
+#paths n
+#pathlevel 2
+#addeffect 436 2228
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue dispossessed spirit"
+#name d "Retinue: Dispossessed Spirit"
+#paths d
+#pathlevel 2
+#addeffect 436 674
+#addeffect 159 1	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+
+#newbless "Retinue dog"
+#name n "Retinue: Dog"
+#paths n
+#pathlevel 2
+#addeffect 436 1560
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue s1 earth elemental"
+#name e "Retinue: Earth Elemental (s1)"
+#paths e
+#pathlevel 1
+#addeffect 436 498
+#addeffect 158 1	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue fiery imp"
+#name f "Retinue: Fiery Imp"
+#name b "Retinue: Fiery Imp"
+#paths fb
+#reqcrosspath 1
+#pathlevel 3
+#addeffect 436 2286
+#addeffect 159 1	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue goat"
+#name n "Retinue: Goat"
+#paths n
+#pathlevel 1
+#addeffect 436 2227
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue illearth 1"
+#name e "Retinue: Illearth (size 1)"
+#name b "Retinue: Illearth (size 1)"
+#paths eb
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 436 2285
+#addeffect 158 1	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue imp"
+#name b "Retinue: Imp"
+#paths b
+#pathlevel 4
+#addeffect 436 303
+#addeffect 159 1	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue phantasmal warrior"
+#name a "Retinue: Phantasmal Warrior"
+#paths a
+#pathlevel 2
+#addeffect 436 297
+#addeffect 158 1	-- magic leadership
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Retinue phantasmal wolf"
+#name a "Retinue: Phantasmal Wolf"
+#paths a
+#pathlevel 2
+#addeffect 436 298
+#addeffect 158 1	-- magic leadership
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Retinue phantasmal archer"
+#name a "Retinue: Phantasmal Archer"
+#paths a
+#pathlevel 3
+#addeffect 436 3233
+#addeffect 158 1	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue shadow imp"
+#name b "Retinue: Shadow Imp"
+#paths b
+#pathlevel 3
+#addeffect 436 2287
+#addeffect 159 1	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue sprite"
+#name n "Retinue: Sprite"
+#name na "Retinue: Sprite"
+#paths na
+#reqcrosspath 1
+#pathlevel 3
+#addeffect 436 592
+#addeffect 158 1	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+--#newbless "Retinue swarm bugs"
+--#name n "Retinue: Random Insects"
+--#paths n
+--#pathlevel 2
+--#addeffect 436 -9
+--#addeffect 158 1	-- magic leadership
+--#skipchance 90
+--#alwaysactive 1
+--#end
+
+#newbless "Retinue vine man"
+#name n "Retinue: Vine Man"
+#paths n
+#pathlevel 2
+#addeffect 436 361
+#addeffect 158 1	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Retinue wolf"
+#name n "Retinue: Wolf"
+#paths n
+#pathlevel 2
+#addeffect 436 284
+#skipchance 90
+#alwaysactive 1
+#end
+
+
+
+
+

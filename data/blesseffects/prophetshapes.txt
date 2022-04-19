@@ -1,0 +1,299 @@
+#newbless "Prophetshape angel of host"
+#name s "Prophet: Angel of the Host"
+#paths s
+#pathlevel 2
+#addeffect 516 543
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape thing that shouldn't be"
+#name s "Prophet:Thing that Shouldn't Be"
+#paths s
+#pathlevel 1
+#addeffect 516 751
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape behemoth"
+#name d "Prophet Shape: Behemoth"
+#paths d
+#pathlevel 1
+#addeffect 516 452
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape cavecrab"
+#name e "Prophet Shape: Cave Crab"
+#paths e
+#pathlevel 1
+#addeffect 516 2514
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape dark vines"
+#name b "Prophet Shape: Dark Vines"
+#paths b
+#pathlevel 1
+#addeffect 516 330
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape draconian chief"
+#name a "Prophet Shape: Draconian Chief"
+#paths a
+#pathlevel 1
+#addeffect 516 620
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape demon knight"
+#name b "Prophet Shape: Demon Knight"
+#paths b
+#pathlevel 1
+#addeffect 516 489
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape fall bear"
+#name e "Prophet Shape: Fall Bear"
+#paths e
+#pathlevel 1
+#addeffect 516 512
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape fiend of darkness"
+#name b "Prophet: Fiend of Darkness"
+#paths b
+#pathlevel 1
+#addeffect 516 88
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape forest troll"
+#name n "Prophet: Forest Troll Shaman"
+#paths n
+#pathlevel 1
+#addeffect 516 2220
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape formless spawn"
+#name s "Prophet Shape: Formless Spawn"
+#paths s
+#pathlevel 1
+#addeffect 516 966
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape gelatinous cube"
+#name w "Prophet Shape: Gelatinous Cube"
+#paths w
+#pathlevel 1
+#addeffect 516 2159
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape otherness"
+#name s "Prophet Shape: Otherness"
+#paths s
+#pathlevel 1
+#addeffect 516 755
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape green lion"
+#name w "Prophet Shape: Green Lion"
+#paths w
+#pathlevel 1
+#addeffect 516 1983
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape gryphon"
+#name a "Prophet Shape: Gryphon"
+#paths a
+#pathlevel 1
+#addeffect 516 2131
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape hound of twilight"
+#name d "Prophet: Hound of Twilight"
+#paths d
+#pathlevel 1
+#addeffect 516 3168
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape kithaironic lion"
+#name n "Prophet Shape: Kithaironic Lion"
+#paths n
+#pathlevel 1
+#addeffect 516 514
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape lamia"
+#name n "Prophet Shape: Lamia"
+#paths n
+#pathlevel 1
+#addeffect 516 394
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape living statue"
+#name e "Prophet Shape: Living Statue"
+#paths e
+#pathlevel 1
+#addeffect 516 474
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape manticore"
+#name e "Prophet Shape: Manticore"
+#name n "Prophet Shape: Manticore"
+#paths en
+#pathlevel 1
+#addeffect 516 2130
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape released king"
+#name d "Prophet Shape: Released King"
+#paths d
+#pathlevel 1
+#addeffect 516 3168
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape scorpion beast"
+#name e "Prophet Shape: Scorpion Beast"
+#name f "Prophet Shape: Scorpion Beast"
+#paths ef
+#pathlevel 1
+#addeffect 516 524
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape troll"
+#name e "Prophet Shape: Troll"
+#paths e
+#pathlevel 1
+#addeffect 516 518
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape storm demon"
+#name b "Prophet Shape: Storm Demon"
+#name a "Prophet Shape: Storm Demon"
+#paths ab
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 516 632
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape werewolf"
+#name n "Prophet Shape: Werewolf"
+#paths n
+#pathlevel 1
+#addeffect 516 633
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape ether warrior"
+#name s "Prophet Shape: Ether Warrior"
+#paths s
+#pathlevel 2
+#addeffect 516 736
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape faery queen"
+#name a "Prophet Shape: Faery Queen"
+#name n "Prophet Shape: Faery Queen"
+#paths an
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 516 627
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape moundfiend"
+#name n "Prophet Shape: Mound Fiend"
+#paths n
+#pathlevel 1
+#addeffect 516 439
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape sleeper"
+#name n "Prophet Shape: Sleeper"
+#paths n
+#pathlevel 1
+#addeffect 516 559
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape chimera"
+#name b "Prophet Shape: Chimera"
+#name n "Prophet Shape: Chimera"
+#paths bn
+#pathlevel 2
+#reqcrosspath 1
+#addeffect 516 487
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape draco lion"
+#name b "Prophet Shape: Draco Lion"
+#name n "Prophet Shape: Draco Lion"
+#paths bn
+#pathlevel 2
+#reqcrosspath 1
+#addeffect 516 637
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Prophetshape big foulspawn"
+#name b "Prophet Shape: Huge Foul Spawn"
+#name n "Prophet Shape: Huge Foul Spawn"
+#paths bn
+#pathlevel 2
+#reqcrosspath 1
+#addeffect 516 550
+#skipchance 90
+#alwaysactive 1
+#end

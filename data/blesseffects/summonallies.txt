@@ -1,0 +1,343 @@
+-- Montags will require a firstshape dummy to work.
+
+#newbless "Summonallies airele 1"
+#name a "Summon: Air Elemental (size 1)"
+#paths a
+#pathlevel 4
+#addeffect 164 517
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies algae man"
+#name w "Summon: Algae Man"
+#name n "Summon: Algae Man"
+#paths nw
+#pathlevel 3
+#reqcrosspath 1
+#addeffect 164 2976
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies corpse construct"
+#name a "Summon: Corpse Construct"
+#name d "Summon: Corpse Construct"
+#paths ad
+#pathlevel 3
+#reqcrosspath 1
+#addeffect 164 534
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+--#newbless "Summonallies crossbreed"
+--#name b "Summon: Lesser Foulspawn"
+--#name n "Summon: Lesser Foulspawn"
+--#paths bn
+--#pathlevel 3
+--#reqcrosspath 1
+--#addeffect 164 -11
+--#skipchance 90
+--#alwaysactive 1
+--#end
+--
+--#newbless "Summonallies 97% bad 3% good crossbreed"
+--#name b "Summon: Foulspawn, 97% weak"
+--#name n "Summon: Foulspawn, 97% weak"
+--#paths bn
+--#pathlevel 5
+--#reqcrosspath 1
+--#addeffect 164 -12
+--#skipchance 90
+--#alwaysactive 1
+--#end
+--
+--#newbless "Summonallies ghoul"
+--#name d "Summon: Ghoul"
+--#paths d
+--#pathlevel 3
+--#addeffect 164 -4
+--#addeffect 159 30	-- undead leadership
+--#skipchance 90
+--#alwaysactive 1
+--#end
+
+#newbless "Summonallies longdead archer"
+#name d "Summon: Longdead Archer"
+#paths d
+#pathlevel 3
+#addeffect 164 535
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies manikin"
+#name d "Summon: Manikin"
+#paths d
+#pathlevel 4
+#addeffect 164 313
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies moose"
+#name n "Summon: Moose"
+#paths n
+#pathlevel 4
+#addeffect 164 1084
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies sea dog"
+#name n "Summon: Sea Dog"
+#name w "Summon: Sea Dog"
+#paths nw
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 164 1064
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies phantasmal knight"
+#name a "Summon: Phantasmal Knight"
+#paths a
+#pathlevel 2
+#addeffect 164 696
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies terracotta warrior"
+#name f "Summon: Terracotta Warrior"
+#name e "Summon: Terracotta Warrior"
+#paths fe
+#reqcrosspath 1
+#pathlevel 4
+#addeffect 164 2134
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies water elemental s1"
+#name w "Summon: Water Elemental (s1)"
+#paths w
+#pathlevel 4
+#addeffect 164 413
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies will o wisp"
+#name f "Summon: Will o' the Wisp"
+#paths f
+#pathlevel 4
+#addeffect 164 527
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies blackhawk"
+#name a "Summon: Black Hawk"
+#paths a
+#pathlevel 4
+#addeffect 164 517
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies boar"
+#name n "Summon: Boar"
+#paths n
+#pathlevel 1
+#addeffect 164 549
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Summonallies corpse candle"
+#name f "Summon: Corpse Candle"
+#name d "Summon: Corpse Candle"
+#paths fd
+#reqcrosspath 1
+#pathlevel 1
+#addeffect 164 528
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies deer"
+#name n "Summon: Deer"
+#paths n
+#pathlevel 1
+#addeffect 164 2228
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Summonallies dispossessed spirit"
+#name d "Summon: Dispossessed Spirit"
+#paths d
+#pathlevel 1
+#addeffect 164 674
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies dog"
+#name n "Summon: Dog"
+#paths n
+#pathlevel 1
+#addeffect 164 1560
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Summonallies earth elemental size 1"
+#name e "Summon: Earth Elemental (s1)"
+#paths e
+#pathlevel 1
+#addeffect 164 498
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies fiery imp"
+#name b "Summon: Fiery Imp"
+#name f "Summon: Fiery Imp"
+#paths fb
+#pathlevel 2
+#reqcrosspath 1
+#addeffect 164 2286
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies goat"
+#name n "Summon: Goat"
+#paths n
+#pathlevel 1
+#addeffect 164 2227
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Summonallies illearth s1"
+#name e "Summon: Illearth (size 1)"
+#name b "Summon: Illearth (size 1)"
+#paths eb
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 164 2285
+#addeffect 158 30	-- magic leadership
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Summonallies imp"
+#name b "Summon: Imp"
+#paths b
+#pathlevel 4
+#addeffect 164 303
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies phantasmal warrior"
+#name a "Summon: Phantasmal Warrior"
+#paths a
+#pathlevel 1
+#addeffect 164 297
+#addeffect 158 30	-- magic leadership
+#skipchance 95
+#alwaysactive 1
+#end
+
+#newbless "Summonallies phantasmal archer"
+#name a "Summon: Phantasmal Archer"
+#paths a
+#pathlevel 1
+#addeffect 164 3233
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies phantasmal wolf"
+#name a "Summon: Phantasmal Wolf"
+#paths a
+#pathlevel 1
+#addeffect 164 298
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies shadow imp"
+#name b "Summon: Shadow Imp"
+#paths b
+#pathlevel 2
+#addeffect 164 2287
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies sprite"
+#name n "Summon: Sprite"
+#name a "Summon: Sprite"
+#paths na
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 164 592
+#addeffect 159 30	-- undead leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+--#newbless "Summonallies swarmbugs"
+--#name n "Summon: Random Insect"
+--#paths n
+--#pathlevel 1
+--#addeffect 164 -9
+--#addeffect 158 30	-- magic leadership
+--#skipchance 90
+--#alwaysactive 1
+--#end
+
+#newbless "Summonallies vineman"
+#name n "Summon: Vine Man"
+#paths n
+#pathlevel 1
+#addeffect 164 361
+#addeffect 158 30	-- magic leadership
+#skipchance 90
+#alwaysactive 1
+#end
+
+#newbless "Summonallies wolf"
+#name n "Summon: Wolf"
+#paths n
+#pathlevel 1
+#addeffect 164 284
+#skipchance 90
+#alwaysactive 1
+#end
+
+

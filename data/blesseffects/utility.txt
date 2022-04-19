@@ -1,0 +1,534 @@
+#newbless "Standard"
+#name f "Standard +[EFFECT103]"
+#paths f
+#pathlevel 2
+#addeffect 103 1
+#scaleeffect 103 1
+#maxeffectvalue 103 10
+#multipick 1
+#skipchance 50
+#end
+
+#newbless "Water Breathing"
+#name w "Water Breathing"
+#paths w
+#pathlevel 2
+#addeffect 110 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+
+#newbless "Air Breathing"
+#name a "Air Breathing"
+#paths a
+#pathlevel 5
+#addeffect 129 1
+#alwaysactive 1
+#skipchance 50
+#end
+-- 
+-- #newbless "Gift of Water Breathing"
+-- #name w "Gift of Water Breathing +[EFFECT111]"
+-- #paths w
+-- #pathlevel 2
+-- #addeffect 111 20
+-- #scaleeffect 111 20
+-- #maxeffectvalue 111 120
+-- #alwaysactive 1
+-- #skipchance 50
+-- #end
+-- 
+-- #newbless "Gift of Air Breathing"
+-- #name a "Gift of Air Breathing +[EFFECT130]"
+-- #paths a
+-- #pathlevel 2
+-- #addeffect 130 20
+-- #scaleeffect 130 20
+-- #maxeffectvalue 130 120
+-- #alwaysactive 1
+-- #skipchance 50
+-- #end
+
+#newbless "Sailing"
+#name a "Sailing ([EFFECT112] size pts)"
+#name w "Sailing ([EFFECT112] size pts)"
+#paths aw
+#reqcrosspath 1
+#pathlevel 5
+#addeffect 410 10
+#addeffect 112 40
+#scaleeffect 112 40
+#maxeffectvalue 112 80
+#alwaysactive 1
+#skipchance 50
+#end
+
+
+#newbless "Siege Bonus"
+#name e "Siege Strength +[EFFECT125]"
+#paths e
+#pathlevel 1
+#addeffect 125 2
+#scaleeffect 125 3
+#maxeffectvalue 125 20
+#alwaysactive 1
+#multipick 1
+#skipchance 50
+#end
+
+#newbless "Siege Defence"
+#name e "Siege Defence +[EFFECT215]"
+#paths e
+#pathlevel 1
+#addeffect 215 1
+#scaleeffect 215 1.5
+#maxeffectvalue 215 10
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Alchemy Bonus"
+#name f "Alchemy Bonus +[EFFECT132]%"
+#name e "Alchemy Bonus +[EFFECT132]%"
+#paths fe
+#pathlevel 1
+#addeffect 132 10
+#scaleeffect 132 10
+#maxeffectvalue 132 60
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Soul Butcher"
+#name d "Soul Butcher (max 1 gem/battle)"
+#paths d
+#pathlevel 4
+#addeffect 570 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Warning"
+#name s "Warning +5"
+#paths s
+#pathlevel 1
+#addeffect 152 5
+#alwaysactive 1
+#multipick 1
+#skipchance 50
+#end
+
+#newbless "Magic Leadership"
+#name s "Magic Leadership +[EFFECT158]"
+#paths s
+#pathlevel 1
+#addeffect 158 40
+#scaleeffect 158 40
+#maxeffectvalue 158 80
+#alwaysactive 1
+#multipick 1
+#skipchance 50
+#end
+
+#newbless "Undead Leadership"
+#name d "Undead Leadership +[EFFECT159]"
+#paths d
+#pathlevel 1
+#addeffect 159 40
+#scaleeffect 159 40
+#maxeffectvalue 159 80
+#alwaysactive 1
+#multipick 1
+#skipchance 50
+#end
+
+#newbless "Patrol Bonus"
+#name a "Patrol Bonus +[EFFECT170]"
+#name s "Patrol Bonus +[EFFECT170]"
+#paths as
+#pathlevel 1
+#addeffect 170 1
+#scaleeffect 170 1.5
+#maxeffectvalue 170 10
+#alwaysactive 1
+#multipick 1
+#skipchance 50
+#end
+
+#newbless "Inquisitor"
+#name f "Inquisitors"
+#paths f
+#pathlevel 2
+#addeffect 211 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Army Healer"
+#name n "Army Healer +[EFFECT212]%"
+#paths n
+#pathlevel 1
+#addeffect 212 1
+#scaleeffect 212 2
+#maxeffectvalue 212 20
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Spies"
+#name s "Spies"
+#name a "Spies"
+#paths as
+#pathlevel 3
+#addeffect 214 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Reduce Unrest"
+#name s "Reduce Unrest +[EFFECTDIV10_223]"
+#name w "Reduce Unrest +[EFFECTDIV10_223]"
+#paths ws
+#pathlevel 1
+#addeffect 223 5
+#scaleeffect 223 8
+#maxeffectvalue 223 40
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Fortune Teller"
+#name s "Fortune Teller +[EFFECT235]%"
+#name b "Fortune Teller +[EFFECT235]%"
+#paths sb
+#pathlevel 1
+#addeffect 235 4
+#scaleeffect 235 6
+#maxeffectvalue 235 15
+#alwaysactive 1
+#skipchance 50
+#end
+
+-- #newbless "Dragon Master"
+-- #name f "Dragon Master +[EFFECT270]"
+-- #name w "Dragon Master +[EFFECT270]"
+-- #paths fw
+-- #pathlevel 3
+-- #addeffect 270 1
+-- #scaleeffect 270 1
+-- #maxeffectvalue 270 5
+-- #alwaysactive 1
+-- #skipchance 50
+-- #end
+
+#newbless "Reincarnation"
+#name s "Reincarnation +[EFFECT304]%"
+#name n "Reincarnation +[EFFECT304]%"
+#paths sn
+#pathlevel 1
+#addeffect 304 10
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Tax and gem Collector"
+#name a "Tax/Gem Collector"
+#paths a
+#pathlevel 1
+#addeffect 342 1
+#addeffect 343 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Defence Organiser"
+#name f "Defence Organiser +[EFFECT352]"
+#paths f
+#pathlevel 3
+#addeffect 352 1
+#scaleeffect 352 1
+#maxeffectvalue 352 5
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Healer"
+#name n "Healer +[EFFECT354]"
+#paths n
+#pathlevel 5
+#addeffect 354 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Disease Healer"
+#name n "Disease Healer +[EFFECT355]"
+#paths n
+#pathlevel 4
+#addeffect 355 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Extra Arm"
+#name n "Number of Arms +[EFFECT361]"
+#name e "Number of Arms +[EFFECT361]"
+#paths ne
+#pathlevel 5
+#addeffect 361 1
+#scaleeffect 361 0.45
+#maxeffectvalue 361 4
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Master Smith"
+#name e "Master Smith +[EFFECT363]"
+#paths e
+#pathlevel 6
+#addeffect 363 1
+#scaleeffect 363 0.3
+#maxeffectvalue 363 3
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Master Ritualist"
+#name s "Master Ritualist +[EFFECT463]"
+#paths s
+#pathlevel 7
+#addeffect 463 1
+#scaleeffect 463 0.3
+#maxeffectvalue 463 2
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Reanimator Priests"
+#name d "Reanimator Priests"
+#paths d
+#pathlevel 10
+#addeffect 632 1
+#addeffect 159 40	-- undead leadership
+#negscaleaffinity 3 200
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Passive Reanimator"
+#name d "Commanders Raise [EFFECT466] Corpses"
+#paths d
+#pathlevel 1
+#addeffect 466 2
+#addeffect 159 10	-- +10 undead ldr
+#scaleeffect 466 2
+#maxeffectvalue 466 20
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Bodyguard"
+#name f "Bodyguard +[EFFECT408]"
+#name s "Bodyguard +[EFFECT408]"
+#paths fs
+#pathlevel 1
+#addeffect 408 1
+#scaleeffect 408 1.5
+#maxeffectvalue 408 6
+#alwaysactive 1
+#skipchance 50
+#multipick 1
+#end
+
+#newbless "Elegist"
+#name n "Elegist +[EFFECT411]"
+#name b "Elegist +[EFFECT411]"
+#paths nb
+#pathlevel 3
+#addeffect 411 1
+#scaleeffect 411 0.8
+#maxeffectvalue 411 3
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Obfuscate positive"
+#name a "Add +[EFFECT419] to Scout Reports"
+#paths a
+#pathlevel 1
+#addeffect 419 5
+#scaleeffect 419 10
+#maxeffectvalue 419 40
+#alwaysactive 1
+#skipchance 75
+#end
+
+#newbless "Obfuscate negative"
+#name a "Hide +[EFFECT419] from Scout Reports"
+#paths a
+#pathlevel 1
+#addeffect 419 -3
+#scaleeffect 419 -5
+#maxeffectvalue 419 -50
+#alwaysactive 1
+#skipchance 75
+#end
+
+#newbless "Fool Scouts"
+#name a "Scouts see only one Unit Type"
+#paths a
+#pathlevel 2
+#addeffect 420 1
+#alwaysactive 1
+#skipchance 75
+#end
+
+#newbless "Mapmove"
+#name a "Mapmove +[EFFECT426]"
+#paths a
+#pathlevel 1
+#addeffect 426 2
+#scaleeffect 426 3
+#maxeffectvalue 426 30
+#alwaysactive 1
+#skipchance 75
+#end
+
+#newbless "Pearl Cultivator"
+#name w "Pearl Cultivator +[EFFECT430]"
+#name s "Pearl Cultivator +[EFFECT430]"
+#paths ws
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 430 1
+#scaleeffect 430 2
+#maxeffectvalue 430 5
+#alwaysactive 1
+#skipchance 66
+#end
+
+#newbless "Carcass Collector"
+#name n "Carcass Collector +[EFFECT658]"
+#name d "Carcass Collector +[EFFECT658]"
+#paths nd
+#reqcrosspath 1
+#pathlevel 2
+#addeffect 658 1
+#scaleeffect 658 2
+#maxeffectvalue 658 5
+#alwaysactive 1
+#skipchance 66
+#end
+
+#newbless "Divine Insights"
+#name s "Divine Insights ([EFFECT248] RP)"
+#paths s
+#pathlevel 1
+#addeffect 450 1	-- divine insights
+#addeffect 451 1	-- research without magic
+#addeffect 248 1	-- fixedresearch
+#scaleeffect 248 0.3
+#maxeffectvalue 248 3
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Forge Bonus Percentile"
+#name e "Forge Bonus +[EFFECT118]%"
+#paths e
+#pathlevel 4
+#addeffect 118 5
+#scaleeffect 118 5
+#maxeffectvalue 118 20
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Forge Bonus Fixed"
+#name e "Forge Bonus +[EFFECT453]"
+#paths e
+#pathlevel 4
+#addeffect 453 1
+#scaleeffect 453 0.15
+#maxeffectvalue 453 2
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Unaging"
+#name n "Unaging +[EFFECT479]%"
+#paths n
+#pathlevel 1
+#addeffect 479 25
+#scaleeffect 479 25
+#maxeffectvalue 479 100
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Disease Immunity"
+#name d "Disease Immunity"
+#paths d
+#pathlevel 2
+#addeffect 513 100	-- disease resist
+#alwaysactive 1
+#skipchance 50
+#end
+
+--#newbless "Astral Fetters"
+--#name s "Astral Fetters"
+--#paths s
+--#pathlevel 2
+--#addeffect 563 1
+--#skipchance 50
+--#end
+
+#newbless "Recuperation"
+#name n "Recuperation"
+#paths n
+#pathlevel 5
+#addeffect 568 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Masons"
+#name e "Masons"
+#paths e
+#pathlevel 6
+#addeffect 594 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Dark Vessels"
+#name a "Dark Vessels"
+#name w "Dark Vessels"
+#paths aw
+#reqcrosspath 1
+#pathlevel 3
+#addeffect 645 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Autobless"
+#name f "Always Blessed in Combat"
+#paths f
+#pathlevel 2
+#addeffect 684 1
+#alwaysactive 1
+#skipchance 50
+#end
+
+#newbless "Random Heroic Ability"
+#name f "Commanders start w/ HoF Traits"
+#paths f
+#pathlevel 2
+#addeffect 672 100
+#alwaysactive 1
+#skipchance 50
+#end
+
+
