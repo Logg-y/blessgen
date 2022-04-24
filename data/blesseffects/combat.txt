@@ -220,10 +220,13 @@
 #multipick 1
 #end
 
+-- Astral path ruins the synergy with luck
 #newbless "Damage Reversal"
 #name b "Damage Reversal"
-#paths b
-#pathlevel 10
+#name s "Damage Reversal"
+#paths sb
+#reqcrosspath 1
+#pathlevel 14
 #addeffect 202 1
 #end
 

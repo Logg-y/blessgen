@@ -1,3 +1,7 @@
+v1.0.2 - 24/04/22
+
+Damage Reversal given Astral crosspath, path level 14 from 10 (this will now be split into 8+8 S/B or something around here)
+
 v1.0.1 - 19/04/22
 
 Automatically created the /output folder. Thanks to Imperator for picking up on what my sleepy brain forgot
