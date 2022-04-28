@@ -79,7 +79,7 @@
 #paths a
 #pathlevel 6
 --#effect10buffs 131072
-#effect 240 1
+#addeffect 240 1
 #end
 
 #newbless "Quickness"

@@ -1,3 +1,7 @@
+v1.0.4 - 28/04/22
+
+Fixed a very stupid mistake in the previous version that brroke everything
+
 v1.0.3 - 28/04/22
 
 Removed various buff effects that don't actually work. Some of these even showed up on the UI but didn't actually do anything...
