@@ -9,15 +9,16 @@
 #descr "Grants luck, giving non-inanimate and non-undead creatures a 75% chance to negate otherwise fatal damage."
 #end
 
-#newbless "Aim"
-#name a "Wind Guide"
-#name n "Eagle Eyes"
-#name b "Infernal Accuracy"
-#paths an
-#pathlevel 2
-#effect10buffs 4
-#descr "Grants the Wind Guide buff, giving +5 precision. This does not stack with spells providing this buff effect."
-#end
+-- Doesn't work due to checking buff directly
+--#newbless "Aim"
+--#name a "Wind Guide"
+--#name n "Eagle Eyes"
+--#name b "Infernal Accuracy"
+--#paths an
+--#pathlevel 2
+--#effect10buffs 4
+--#descr "Grants the Wind Guide buff, giving +5 precision. This does not stack with spells providing this buff effect."
+--#end
 
 #newbless "Barkskin Nature"
 #paths n
@@ -29,15 +30,15 @@
 #descr "Grants Barkskin, setting natural protection to 10 (or +1 if it was higher than this), but adding 5 fire vulnerability."
 #end
 
-#newbless "Legions of Steel"
-#paths eb
-#name e "Tempered Armour"
-#name b "Armour of Infernal Forges"
-#pathlevel 3
-#effect10buffs 64
-#posscaleaffinity 1 80
-#descr "Grants Legions of Steel, granting +3 protection to all armour pieces. Does not stack with spells providing this buff effect."
-#end
+--#newbless "Legions of Steel"
+--#paths eb
+--#name e "Tempered Armour"
+--#name b "Armour of Infernal Forges"
+--#pathlevel 3
+--#effect10buffs 64
+--#posscaleaffinity 1 80
+--#descr "Grants Legions of Steel, granting +3 protection to all armour pieces. Does not stack with spells providing this buff effect."
+--#end
 
 #newbless "Strength of Giants"
 #paths eb
@@ -65,19 +66,20 @@
 #effect10buffs 65536
 #end
 
-#newbless "Flight always active"
-#paths a
-#name a "Permanent Flight"
-#alwaysactive 1
-#pathlevel 8
-#effect10buffs 131072
-#end
+--#newbless "Flight always active"
+--#paths a
+--#name a "Permanent Flight"
+--#alwaysactive 1
+--#pathlevel 8
+--#effect10buffs 131072
+--#end
 
 #newbless "Fly When Blessed"
 #name a "Flight when Blessed"
 #paths a
 #pathlevel 6
-#effect10buffs 131072
+--#effect10buffs 131072
+#effect 240 1
 #end
 
 #newbless "Quickness"
@@ -88,21 +90,22 @@
 #effect10buffs 262144
 #end
 
-#newbless "Weapons of Sharpness"
-#paths e
-#name e "Weapons of Sharpness"
-#pathlevel 10
-#posscaleaffinity 1 220
-#effect10buffs 524288
-#end
+-- astral weapons doesn't work either
+--#newbless "Weapons of Sharpness"
+--#paths e
+--#name e "Weapons of Sharpness"
+--#pathlevel 10
+--#posscaleaffinity 1 220
+--#effect10buffs 524288
+--#end
 
-#newbless "Life After Death"
-#paths d
-#name d "Life after Death"
-#pathlevel 6
-#negscaleaffinity 3 80
-#effect10buffs 2097152
-#end
+--#newbless "Life After Death"
+--#paths d
+--#name d "Life after Death"
+--#pathlevel 6
+--#negscaleaffinity 3 80
+--#effect10buffs 2097152
+--#end
 
 #newbless "Holy Avenger"
 #paths f
@@ -125,12 +128,12 @@
 #effect10buffs 134217728
 #end
 
-#newbless "Antimagic"
-#paths s
-#name s "Antimagic"
-#pathlevel 3
-#effect10buffs 67108864
-#end
+--#newbless "Antimagic"
+--#paths s
+--#name s "Antimagic"
+--#pathlevel 3
+--#effect10buffs 67108864
+--#end
 
 #newbless "Larger"
 #paths en
@@ -141,12 +144,12 @@
 #effect10buffs 2147483648
 #end
 
-#newbless "Liquid Body"
-#paths w
-#name w "Liquid Body"
-#pathlevel 8
-#effect10buffs 2680059592704
-#end
+--#newbless "Liquid Body"
+--#paths w
+--#name w "Liquid Body"
+--#pathlevel 8
+--#effect10buffs 2680059592704
+--#end
 
 #newbless "Fortitude"
 #paths e
@@ -163,6 +166,7 @@
 #end
 
 -- redundant with prot force scalable effect
+-- ... this is one of the ones that works, though
 -- #newbless "Flying Shield"
 -- #paths ae
 -- #name e "Flying Shield"

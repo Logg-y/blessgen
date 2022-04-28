@@ -1,3 +1,7 @@
+v1.0.3 - 28/04/22
+
+Removed various buff effects that don't actually work. Some of these even showed up on the UI but didn't actually do anything...
+
 v1.0.2 - 24/04/22
 
 Damage Reversal given Astral crosspath, path level 14 from 10 (this will now be split into 8+8 S/B or something around here)
