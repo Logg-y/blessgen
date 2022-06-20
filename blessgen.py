@@ -7,7 +7,7 @@ import os
 import traceback
 from blessgenerationsettings import BlessGenerationSettings
 
-ver = "1.0.4"
+ver = "1.0.5"
 
 def _parseDataFiles():
     if len(utils.blesseffects) < 0:
@@ -62,7 +62,7 @@ class BlessGenerator(object):
                 numEffects = len(blessList)
                 # Give more non-incarnate effects
                 if level < 5:
-                    numEffects -= 1
+                    numEffects -= 2
                 if numEffects - lowestEffectCount <= self.combinationTolerance:
                     combo = BlessGenerationSettings(path, None, level)
                     pathAndLevelCombinationPool.append(combo)
@@ -86,7 +86,20 @@ class BlessGenerator(object):
             self._buildRarestCombinationPool()
             if self.combinationTolerance > 5:
                 raise ValueError("Failed to build an effect from the least common path/level combination pool")
-        settings = self._cachedCombinationPool.pop()
+        # Skew even further to nonincarnate (or lesser primary path cost effects)
+        tries = 0
+        while True:
+            settings = self._cachedCombinationPool.pop()
+            if tries >= 10:
+                break
+            if settings.primarypath > 4:
+                skipchance = 10 + (settings.primarypath*5)
+                if random.random() * 100 < skipchance:
+                    self._cachedCombinationPool.append(settings)
+                    tries += 1
+                    continue
+            break
+
         return settings
 
     def generateBless(self, settings):

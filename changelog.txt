@@ -1,6 +1,25 @@
+TODO
+
+Secondshapes reportedly work, test this (should look for a code basis for units not secondshaping into themselves via disassembly)
+
+v1.0.5 - 20/06/22
+
+Capped elegist's value at 2 to prevent it from becoming incarnate (thanks Andy for pointing this one out)
+Disabled extra arm bless due to glitchiness with shrouds (thanks kurtcop for this one)
+Fixed vine ogre temple train so it doesn't make tigers (thanks Imperator for finding that)
+Nerfed reduce unrest down to a bit under half what it was
+Increased resist power again somewhat, but it's still below vanilla
+Increased cost of damage reversal somewhat (14 -> 16)
+Attempted to reduce the number of high level effects generated, but due to the small effect pool this won't always happen
+Disabled various aura effects because they only work on commanders when added via bless
+Penetration bonus is no longer stackable
+Increased the base cost of strength by 1 (now X2 for 1 point, increasing returns with scaling)
+Added percentage more likely to cause afflictions
+Added nonstackable X1 resist options that give 2 in the resistance type related to the path
+
 v1.0.4 - 28/04/22
 
-Fixed a very stupid mistake in the previous version that brroke everything
+Fixed a very stupid mistake in the previous version that broke everything
 
 v1.0.3 - 28/04/22
 

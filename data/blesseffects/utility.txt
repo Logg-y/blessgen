@@ -191,9 +191,9 @@
 #name w "Reduce Unrest +[EFFECTDIV10_223]"
 #paths ws
 #pathlevel 1
-#addeffect 223 5
-#scaleeffect 223 8
-#maxeffectvalue 223 40
+#addeffect 223 -2
+#scaleeffect 223 -3
+#maxeffectvalue 223 -40
 #alwaysactive 1
 #skipchance 50
 #end
@@ -271,24 +271,25 @@
 #skipchance 50
 #end
 
-#newbless "Extra Arm"
-#name n "Number of Arms +[EFFECT361]"
-#name e "Number of Arms +[EFFECT361]"
-#paths ne
-#pathlevel 5
-#addeffect 361 1
-#scaleeffect 361 0.45
-#maxeffectvalue 361 4
-#alwaysactive 1
-#skipchance 50
-#end
+-- Glitchy. Shrouding a commander makes the shroud take up the wrong slot
+-- #newbless "Extra Arm"
+-- #name n "Number of Arms +[EFFECT361]"
+-- #name e "Number of Arms +[EFFECT361]"
+-- #paths ne
+-- #pathlevel 5
+-- #addeffect 361 1
+-- #scaleeffect 361 0.45
+-- #maxeffectvalue 361 4
+-- #alwaysactive 1
+-- #skipchance 50
+-- #end
 
 #newbless "Master Smith"
 #name e "Master Smith +[EFFECT363]"
 #paths e
-#pathlevel 6
+#pathlevel 3
 #addeffect 363 1
-#scaleeffect 363 0.3
+#scaleeffect 363 0.8
 #maxeffectvalue 363 3
 #alwaysactive 1
 #skipchance 50
@@ -297,7 +298,7 @@
 #newbless "Master Ritualist"
 #name s "Master Ritualist +[EFFECT463]"
 #paths s
-#pathlevel 7
+#pathlevel 5
 #addeffect 463 1
 #scaleeffect 463 0.3
 #maxeffectvalue 463 2
@@ -348,7 +349,7 @@
 #pathlevel 3
 #addeffect 411 1
 #scaleeffect 411 0.8
-#maxeffectvalue 411 3
+#maxeffectvalue 411 2
 #alwaysactive 1
 #skipchance 50
 #end

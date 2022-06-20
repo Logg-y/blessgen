@@ -33,7 +33,7 @@
 #newbless "Strength"
 #name eb "Strength +[EFFECT151]"
 #paths eb
-#pathlevel 1
+#pathlevel 2
 #addeffect 151 1
 #scaleeffect 151 1.2
 #maxeffectvalue 151 8
@@ -73,21 +73,21 @@
 #paths s
 #pathlevel 3
 #addeffect 162 1
-#scaleeffect 162 0.3
-#maxeffectvalue 162 2
-#multipick 1
+#scaleeffect 162 0.25
+#maxeffectvalue 162 3
 #end
 
-#newbless "Plague Carrier"
-#name d "Disease Aura [EFFECT172] + Disease Immune"
-#paths d
-#pathlevel 5
-#addeffect 172 2	-- disease aura
-#addeffect 513 100	-- disease resist
-#scaleeffect 172 1
-#negscaleaffinity 3 100
-#maxeffectvalue 172 4
-#end
+-- Works on commanders only
+-- #newbless "Plague Carrier"
+-- #name d "Disease Aura [EFFECT172] + Disease Immune"
+-- #paths d
+-- #pathlevel 5
+-- #addeffect 172 2	-- disease aura
+-- #addeffect 513 100	-- disease resist
+-- #scaleeffect 172 1
+-- #negscaleaffinity 3 100
+-- #maxeffectvalue 172 4
+-- #end
 
 #newbless "Disease Explosion"
 #name d "Disease Explosion [EFFECT401] + Immunity"
@@ -164,43 +164,103 @@
 #maxeffectvalue 190 10
 #end
 
-#newbless "Fire Resistance"
+
+#newbless "Fire Resistance Minor"
 #name f "Fire Resistance +[EFFECT198]"
 #paths f
 #pathlevel 1
-#addeffect 198 1
-#scaleeffect 198 1.2
-#maxeffectvalue 198 5
-#multipick 1
+#addeffect 198 2
+#end
+
+#newbless "Cold Resistance Minor"
+#name w "Cold Resistance +[EFFECT201]"
+#paths w
+#pathlevel 1
+#addeffect 201 2
+#end
+
+#newbless "Shock Resistance Minor"
+#name a "Shock Resistance +[EFFECT199]"
+#paths a
+#pathlevel 1
+#addeffect 199 2
+#end
+
+#newbless "Poison Resistance Minor"
+#name n "Poison Resistance +[EFFECT200]"
+#paths n
+#pathlevel 1
+#addeffect 200 2
 #end
 
 #newbless "Cold Resistance"
 #name w "Cold Resistance +[EFFECT201]"
 #paths w
-#pathlevel 1
-#addeffect 201 1
-#scaleeffect 201 1.2
-#maxeffectvalue 201 5
+#pathlevel 4
+#addeffect 201 5
+#scaleeffect 201 2
+#maxeffectvalue 201 10
 #multipick 1
 #end
 
 #newbless "Shock Resistance"
 #name a "Shock Resistance +[EFFECT199]"
 #paths a
-#pathlevel 1
-#addeffect 199 1
-#scaleeffect 199 1.2
-#maxeffectvalue 199 5
+#pathlevel 4
+#addeffect 199 5
+#scaleeffect 199 2
+#maxeffectvalue 199 10
 #multipick 1
 #end
 
 #newbless "Poison Resistance"
 #name n "Poison Resistance +[EFFECT200]"
 #paths n
-#pathlevel 1
-#addeffect 200 1
-#scaleeffect 200 1.2
-#maxeffectvalue 200 5
+#pathlevel 4
+#addeffect 200 5
+#scaleeffect 200 2
+#maxeffectvalue 200 10
+#multipick 1
+#end
+
+
+#newbless "Fire Resistance"
+#name f "Fire Resistance +[EFFECT198]"
+#paths f
+#pathlevel 4
+#addeffect 198 5
+#scaleeffect 198 2
+#maxeffectvalue 198 10
+#multipick 1
+#end
+
+#newbless "Cold Resistance"
+#name w "Cold Resistance +[EFFECT201]"
+#paths w
+#pathlevel 4
+#addeffect 201 5
+#scaleeffect 201 2
+#maxeffectvalue 201 10
+#multipick 1
+#end
+
+#newbless "Shock Resistance"
+#name a "Shock Resistance +[EFFECT199]"
+#paths a
+#pathlevel 4
+#addeffect 199 5
+#scaleeffect 199 2
+#maxeffectvalue 199 10
+#multipick 1
+#end
+
+#newbless "Poison Resistance"
+#name n "Poison Resistance +[EFFECT200]"
+#paths n
+#pathlevel 4
+#addeffect 200 5
+#scaleeffect 200 2
+#maxeffectvalue 200 10
 #multipick 1
 #end
 
@@ -212,11 +272,11 @@
 #addeffect 199 2
 #addeffect 200 2
 #addeffect 201 2
-#scaleeffect 198 0.5
-#scaleeffect 199 0.5
-#scaleeffect 200 0.5
-#scaleeffect 201 0.5
-#maxeffectvalue 200 20
+#scaleeffect 198 0.8
+#scaleeffect 199 0.8
+#scaleeffect 200 0.8
+#scaleeffect 201 0.8
+#maxeffectvalue 200 10
 #multipick 1
 #end
 
@@ -226,12 +286,12 @@
 #name s "Damage Reversal"
 #paths sb
 #reqcrosspath 1
-#pathlevel 14
+#pathlevel 16
 #addeffect 202 1
 #end
 
 #newbless "Air Shield"
-#name a "Air Shield +[EFFECT208]%"
+#name a "Air Shield +[EFFECT208]% (max total 90%)"
 #paths a
 #pathlevel 2
 #addeffect 208 30
@@ -386,15 +446,16 @@
 #maxeffectvalue 327 3
 #end
 
-#newbless "Poison Aura"
-#name n "Poison Aura +[EFFECT106], Poison Res +20"
-#paths n
-#pathlevel 9
-#addeffect 106 2
-#addeffect 200 20
-#scaleeffect 106 1
-#maxeffectvalue 106 5
-#end
+-- Functions only on commanders, making pricing really really hard
+-- #newbless "Poison Aura"
+-- #name n "Poison Aura +[EFFECT106], Poison Res +20"
+-- #paths n
+-- #pathlevel 9
+-- #addeffect 106 2
+-- #addeffect 200 20
+-- #scaleeffect 106 1
+-- #maxeffectvalue 106 5
+-- #end
 
 #newbless "Reinvigoration"
 #name e "Reinvigoration +[EFFECT117]"
@@ -470,10 +531,10 @@
 --#end
 
 #newbless "Disbelieve"
-#name a "Disbelieve +[EFFECT295]"
-#name s "Disbelieve +[EFFECT295]"
+#name a "Disbelieve +[EFFECT295] (Cmdr only)"
+#name s "Disbelieve +[EFFECT295] (Cmdr only)"
 #paths as
-#pathlevel 2
+#pathlevel 1
 #addeffect 295 5
 #end
 
@@ -488,14 +549,15 @@
 #multipick 1
 #end
 
-#newbless "Sleep Aura"
-#name n "Sleep Aura +[EFFECT306]"
-#paths n
-#pathlevel 8
-#addeffect 306 2
-#scaleeffect 306 1
-#maxeffectvalue 306 5
-#end
+-- Functions only on commanders, making pricing really really hard
+-- #newbless "Sleep Aura"
+-- #name n "Sleep Aura +[EFFECT306]"
+-- #paths n
+-- #pathlevel 8
+-- #addeffect 306 2
+-- #scaleeffect 306 1
+-- #maxeffectvalue 306 5
+-- #end
 
 #newbless "Reforming"
 #name n "Reforming +[EFFECT337]%"
@@ -645,13 +707,14 @@
 #maxeffectvalue 383 20
 #end
 
-#newbless "Mind Slimer"
-#name s "Mind Slimer [EFFECT402] + Void Sanity"
-#paths s
-#pathlevel 10
-#addeffect 402 2
-#addeffect 277 5
-#end
+-- Functions only on commanders, making pricing really really hard
+-- #newbless "Mind Slimer"
+-- #name s "Mind Slimer [EFFECT402] + Void Sanity"
+-- #paths s
+-- #pathlevel 10
+-- #addeffect 402 2
+-- #addeffect 277 5
+-- #end
 
 #newbless "Affliction Resistance"
 #name e "Affliction Resistance +[EFFECT406]"
@@ -684,6 +747,16 @@
 #addeffect 415 2
 #scaleeffect 415 2.5
 #maxeffectvalue 415 25
+#multipick 1
+#end
+
+#newbless "Affliction Rate"
+#name d "+[EFFECT301]% to cause Afflictions"
+#paths d
+#pathlevel 1
+#addeffect 301 35
+#scaleeffect 301 50
+#maxeffectvalue 301 300
 #multipick 1
 #end
 

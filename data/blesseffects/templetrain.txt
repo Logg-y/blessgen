@@ -552,7 +552,7 @@
 #name n "Temple Train: Vine Ogre"
 #paths n
 #pathlevel 2
-#addeffect 564 1140
+#addeffect 564 362
 #addeffect 158 10	-- magic leadership
 #skipchance 90
 #alwaysactive 1
