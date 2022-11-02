@@ -2,6 +2,10 @@ TODO
 
 Secondshapes reportedly work, test this (should look for a code basis for units not secondshaping into themselves via disassembly)
 
+v1.0.6 - 02/11/22
+
+Defaults to generating only 98 blesses, in accordance with blessmodder v1.0.2 and the unterminated table problems.
+
 v1.0.5 - 20/06/22
 
 Capped elegist's value at 2 to prevent it from becoming incarnate (thanks Andy for pointing this one out)

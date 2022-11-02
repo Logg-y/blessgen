@@ -7,7 +7,7 @@ import os
 import traceback
 from blessgenerationsettings import BlessGenerationSettings
 
-ver = "1.0.5"
+ver = "1.0.6"
 
 def _parseDataFiles():
     if len(utils.blesseffects) < 0:
@@ -19,7 +19,7 @@ class BlessGenerator(object):
     def __init__(self, **options):
         self.blessEffectPool = _parseDataFiles()
         self.options = options
-        self.numToGenerate = options.get("numtogenerate", 99)
+        self.numToGenerate = options.get("numtogenerate", 98)
         self.blessEffectsByPath = {}
         self.blessEffectsByCrosspath = {}
         self.crosspathChance = options.get("crosspathchance", 20)
